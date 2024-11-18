@@ -43,21 +43,28 @@ Make sure you have the following installed:
    git clone https://github.com/AlKeshi/HouyemAI.git
    ```
 
-2. Start the server:
+2. Install required dependencies:
+
+   ```bash
+   cd server && npm install dotenv
+   cd client && npm install 
+   ```
+
+3. Start the server:
 
    ```bash
    cd HouyemAI/server
    node server.js
    ```
 
-3. Start the client:
+4. Start the client:
 
    ```bash
    cd ../Projet/client
    npm run
    ```
 
-4. Access the application in your browser at:
+5. Access the application in your browser at:
 
    ```
    http://localhost:3000
